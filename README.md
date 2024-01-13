@@ -34,3 +34,18 @@ b. Go to the "Collision Types" sheet and fill in the table to find the total num
 9. Add a column to the right of the Collision Type Code called "Collision Type". Use the table contained in the Collision Types sheet to fill in this column. 
 
 10. Which interstate has the most accidents between I-24, I-40, I-65, and I-440? Answer this by counting the number of accidents that contain the strings "I 24", "I 40", "I 65", or "I 440" in their Street Address. Hint: You may need to make use of [wildcards](https://support.microsoft.com/en-us/office/using-wildcard-characters-in-searches-ef94362e-9999-4350-ad74-4d2371110adb) in combination with the CONCAT function to answer this. Then do the same but search for "I24", "I40", "I65", and "I440" and then "I-24", "I-40", "I-65", and "I-440". Sum the results to get a total count. 
+
+Text answers:
+
+"Investigate the rows that have zero vehicles using the FILTER function in the "Zero Car Crashes" sheet. What do you find?"
+The majority of Zero Car Crashes were of the Harmful Type "motor vehicle in transport" (count 6369). The next most common Harmful Types were "parked motor vehicle" (count 435), "concrete traffic barrier" (count 282), "utility pole" (count 218), and "guardrail face" (count 199). 
+For Collision Types of Zero Car Crashes, "front to rear" was the most common (count 2558), with "angle" (count 2382) and "not collision w/ motor vehicle-transport" (count 1824) coming in next.
+
+"Fill in the Hour table in the Analysis spreadsheet to find the number of accidents that occurred for each hour of the day. Do you see anything unusual? What might be the explanation for this?"
+When visualizing the Count of Accidents by Hour of Day, you can see that accidents happen least often in the early hours of the morning. There is an increase approaching morning rush hour, with a peak at 7am. Accidents die down a bit during the workday, with a steady rise peaking at 5pm for afternoon rush hour, after which accidents die down again. The sharp jump at hour 0 (midnight to 12:59pm) stands out. A possible explanation would be that drivers going home under the influence of alcohol or sleep deprivation are more likely to have an accident, and are responsible for this jump.
+
+"Do the same for the year and day of the week. What stands out?"
+Year: I notice a slow and steady rise in accidents from 2015 to 2019, followed by a sharp decline in accidents by year in 2020, with declines each year thereafter. A likely explanation would be the increase in remote working during the Covid-19 pandemic beginning in 2020 has resulted in less commuters, and therefore less accidents.
+Weekday: I notice that Monday through Thursday are relatively similar, with a rise on Friday and a drop on Saturdays and Sundays. A possible explanation for the lower number of accidents on weekends is that there are less commuters on the road. A possible explanation for the higher number of accidents on Fridays is that people are rushing to get home after work. I'd be interested to see the hourly breakdown limited to Fridays and see what times account for the majority of the accidents.
+
+
