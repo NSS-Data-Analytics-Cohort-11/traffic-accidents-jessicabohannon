@@ -37,15 +37,22 @@ b. Go to the "Collision Types" sheet and fill in the table to find the total num
 
 Text answers:
 
-"Investigate the rows that have zero vehicles using the FILTER function in the "Zero Car Crashes" sheet. What do you find?"
-The majority of Zero Car Crashes were of the Harmful Type "motor vehicle in transport" (count 6369). The next most common Harmful Types were "parked motor vehicle" (count 435), "concrete traffic barrier" (count 282), "utility pole" (count 218), and "guardrail face" (count 199). 
+* "Investigate the rows that have zero vehicles using the FILTER function in the "Zero Car Crashes" sheet. What do you find?"
+
+See Zero Analysis sheet for visualizations. The majority of Zero Car Crashes were of the Harmful Type "motor vehicle in transport" (count 6369). The next most common Harmful Types were "parked motor vehicle" (count 435), "concrete traffic barrier" (count 282), "utility pole" (count 218), and "guardrail face" (count 199). 
+
 For Collision Types of Zero Car Crashes, "front to rear" was the most common (count 2558), with "angle" (count 2382) and "not collision w/ motor vehicle-transport" (count 1824) coming in next.
 
-"Fill in the Hour table in the Analysis spreadsheet to find the number of accidents that occurred for each hour of the day. Do you see anything unusual? What might be the explanation for this?"
-When visualizing the Count of Accidents by Hour of Day, you can see that accidents happen least often in the early hours of the morning. There is an increase approaching morning rush hour, with a peak at 7am. Accidents die down a bit during the workday, with a steady rise peaking at 5pm for afternoon rush hour, after which accidents die down again. The sharp jump at hour 0 (midnight to 12:59pm) stands out. A possible explanation would be that drivers going home under the influence of alcohol or sleep deprivation are more likely to have an accident, and are responsible for this jump.
+* "Fill in the Hour table in the Analysis spreadsheet to find the number of accidents that occurred for each hour of the day. Do you see anything unusual? What might be the explanation for this?"
 
-"Do the same for the year and day of the week. What stands out?"
+See Time Analysis sheet for visualizations. When visualizing the Count of Accidents by Hour of Day, you can see that accidents happen least often in the early hours of the morning. There is an increase approaching morning rush hour, with a peak at 7am. Accidents die down a bit during the workday, with a steady rise peaking at 5pm for afternoon rush hour, after which accidents die down again. The sharp jump at hour 0 (midnight to 12:59pm) stands out. A possible explanation would be that drivers going home under the influence of alcohol or sleep deprivation are more likely to have an accident, and are responsible for this jump.
+
+* "Do the same for the year and day of the week. What stands out?"
+
+See Time Analysis sheet for visualizations. 
+
 Year: I notice a slow and steady rise in accidents from 2015 to 2019, followed by a sharp decline in accidents by year in 2020, with declines each year thereafter. A likely explanation would be the increase in remote working during the Covid-19 pandemic beginning in 2020 has resulted in less commuters, and therefore less accidents.
+
 Weekday: I notice that Monday through Thursday are relatively similar, with a rise on Friday and a drop on Saturdays and Sundays. A possible explanation for the lower number of accidents on weekends is that there are less commuters on the road. A possible explanation for the higher number of accidents on Fridays is that people are rushing to get home after work. I'd be interested to see the hourly breakdown limited to Fridays and see what times account for the majority of the accidents.
 
 
